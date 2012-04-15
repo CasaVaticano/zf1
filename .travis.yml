@@ -7,7 +7,6 @@ php:
 
 before_script:
   - pear uninstall phpunit/PHPUnit
-  - pear channel-discover pear.phpunit.de
   - pear install phpunit/PHPUnit-2.3.6g
   - phpenv rehash
   - phpunit --version

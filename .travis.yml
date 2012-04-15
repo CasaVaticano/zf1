@@ -7,7 +7,7 @@ php:
 
 before_script:
   - pear uninstall phpunit/PHPUnit
-  - pear install phpunit/PHPUnit-3.4.0
+  - pear install phpunit/PHPUnit-3.4.15
   - phpenv rehash
   - phpunit --version
 

@@ -1,0 +1,19 @@
+{
+    "name": "breerly/zf1",
+    "type": "library",
+    "description": "Zend Framework 1",
+    "keywords": [
+        "zend framework",
+        "zend framework 1",
+        "zf",
+        "zf1",
+        "zend"
+    ],
+    "homepage": "framework.zend.com",
+    "require": {
+        "php": ">=5.2.4"
+    },
+    "autoload": {
+        "Zend":"src"
+    }
+}

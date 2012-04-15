@@ -9,6 +9,7 @@ before_script:
   - pear uninstall phpunit/PHPUnit
   - pear install phpunit/PHPUnit-3.5.5
   - phpenv rehash
+  - phpunit --version
 
   #- wget -nc http://pear2.php.net/pyrus.phar
   #- php pyrus.phar install phpunit/PHPUnit-3.5.5

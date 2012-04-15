@@ -5,7 +5,9 @@ php:
   - 5.3
   - 5.4
 
-script:
-  - pyrus install phpunit/PHPUnit-3.5.5
+before_script:
+  - wget -nc http://pear2.php.net/pyrus.phar
+  - php pyrus.phar install phpunit/PHPUnit-3.5.5
   - phpenv rehash
-  - phpunit -c tests/
+
+script: phpunit -c tests/

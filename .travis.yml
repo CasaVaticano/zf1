@@ -5,8 +5,7 @@ php:
   - 5.3
   - 5.4
 
-before_script:
+script:
   - pyrus install phpunit/PHPUnit-3.5.5
   - phpenv rehash
-
-script: phpunit -c tests/
+  - phpunit -c tests/

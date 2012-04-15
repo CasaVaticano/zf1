@@ -7,12 +7,11 @@ php:
 
 before_script:
   - pear uninstall phpunit/PHPUnit
-  - pear install phpunit/PHPUnit-3.5.5
+  - pear channel-discover pear.phpunit.de
+  - pear install phpunit/PHPUnit-2.3.6g
   - phpenv rehash
   - phpunit --version
 
-  #- wget -nc http://pear2.php.net/pyrus.phar
-  #- php pyrus.phar install phpunit/PHPUnit-3.5.5
-  #- phpenv rehash
-
 script: phpunit -c tests/
+
+  #- pear install phpunit/PHPUnit-3.5.5

@@ -16,7 +16,8 @@
     "include-path": ["library/"],
     "autoload": {
         "psr-0" : {
-            "Zend_" : "library/"
+            "Zend_" : "library/",
+            "ZendX_": "extras/library/"
         }
     }
 }

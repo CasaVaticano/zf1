@@ -3,8 +3,6 @@ Zend Framework 1 for Composer
 
 This is a maintained mirror of ZF1 for use with [Packagist](http://packagist.org/packages/breerly/zf1). 
 
-You can find the original ZF1 readme in [README.txt](README.txt)
-
 To install, add the following to your `composer.yaml` file:
 
 ```yaml
@@ -30,4 +28,4 @@ require 'vendor/autoload.php';
 Zend_Debug::dump('it worked!');
 ```
 
-
+You can find the original ZF1 readme in [README.txt](README.txt)

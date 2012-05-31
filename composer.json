@@ -9,7 +9,7 @@
         "zf1",
         "zend"
     ],
-    "homepage": "framework.zend.com",
+    "homepage": "https://github.com/breerly/zf1",
     "require": {
         "php": ">=5.2.4"
     },

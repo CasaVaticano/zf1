@@ -3,9 +3,9 @@ Zend Framework 1 for Composer
 
 This is a maintained mirror of ZF1 for use with [Packagist](http://packagist.org/packages/breerly/zf1). 
 
-To install, add the following to your `composer.yaml` file:
+To install, add the following to your `composer.json` file:
 
-```yaml
+```json
 {
     "require": {
         "breerly/zf1": "1.11.11",

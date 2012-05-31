@@ -30,7 +30,7 @@ require 'vendor/autoload.php';
 Zend_Debug::dump('it worked!');
 ```
 
-## Setting up an entire Zend Framework Project
+### Setting up an entire Zend Framework Project
 
 Use ZF's cli to setup your project.
 

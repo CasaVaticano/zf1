@@ -20,9 +20,5 @@
             "ZendX_": "extras/library/"
         }
     },
-    "bin": [
-        "bin/zf.php", 
-        "bin/zf.sh", 
-        "bin/zf.bat"
-    ]
+    "bin": [ "bin/zf.php" ]
 }

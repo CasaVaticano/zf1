@@ -28,4 +28,11 @@ require 'vendor/autoload.php';
 Zend_Debug::dump('it worked!');
 ```
 
+Optionally, you can setup an entire Zend Framework project.
+
+```sh
+php vendor/bin/zf.php --help
+php vendor/bin/zf.php create project . myproject
+```
+
 You can find the original ZF1 readme in README.txt

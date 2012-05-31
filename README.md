@@ -1,14 +1,16 @@
 Zend Framework 1 for Composer
 =============================
 
-This is a maintained mirror of ZF1 for use with [Packagist](http://packagist.org/packages/breerly/zf1). 
+This is a maintained mirror of ZF1 for use with [Packagist](http://packagist.org/packages/breerly/zf1). You can find the original ZF1 readme in README.txt
 
-To install, add the following to your `composer.json` file:
+## Installation
+
+To install, add the following to `composer.json` at the root of your project:
 
 ```json
 {
     "require": {
-        "breerly/zf1": "*",
+        "breerly/zf1": "1.11.*",
     }
 }
 ```
@@ -28,14 +30,16 @@ require 'vendor/autoload.php';
 Zend_Debug::dump('it worked!');
 ```
 
-Optionally, you can setup an entire Zend Framework project.
+## Setting up an entire Zend Framework Project
+
+Use ZF's cli to setup your project.
 
 ```sh
 php vendor/bin/zf.php --help
 php vendor/bin/zf.php create project . myproject
 ```
 
-Then at the top of `public/index.php` require `autoload.php`.
+Then at the top of `public/index.php` require the autoloader.
 
 ```php
 <?php
@@ -51,5 +55,3 @@ And finally, if you do not plan on using ZF's library convention and instead pla
 spl_autoload_unregister(array('Zend_Loader_Autoloader','autoload'));
 $application->bootstrap()->run();
 ```
-
-You can find the original ZF1 readme in README.txt

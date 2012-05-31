@@ -40,6 +40,16 @@ Then at the top of `public/index.php` require `autoload.php`.
 ```php
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
+// ...
+```
+
+And finally you should disable `Zend_Loader_Autoloader` by adding this line in `public/index.php` before the application is bootstrapped.
+
+```php
+<?php
+// ...
+spl_autoload_unregister(array('Zend_Loader_Autoloader','autoload'));
+$application->bootstrap()->run();
 ```
 
 You can find the original ZF1 readme in README.txt

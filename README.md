@@ -8,7 +8,7 @@ To install, add the following to your `composer.json` file:
 ```json
 {
     "require": {
-        "breerly/zf1": "1.11.11",
+        "breerly/zf1": "*",
     }
 }
 ```

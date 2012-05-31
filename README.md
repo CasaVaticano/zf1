@@ -35,4 +35,11 @@ php vendor/bin/zf.php --help
 php vendor/bin/zf.php create project . myproject
 ```
 
+Then at the top of `public/index.php` require `autoload.php`.
+
+```php
+<?php
+require_once __DIR__ . '/../vendor/autoload.php';
+```
+
 You can find the original ZF1 readme in README.txt

@@ -43,7 +43,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 // ...
 ```
 
-And finally you should disable `Zend_Loader_Autoloader` by adding this line in `public/index.php` before the application is bootstrapped.
+And finally, if you do not plan on using ZF's library convention and instead plan on using Composer across the board, you should disable `Zend_Loader_Autoloader` by adding this line in `public/index.php` before the application is bootstrapped.
 
 ```php
 <?php

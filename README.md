@@ -28,4 +28,4 @@ require 'vendor/autoload.php';
 Zend_Debug::dump('it worked!');
 ```
 
-You can find the original ZF1 readme in [README.txt](README.txt)
+You can find the original ZF1 readme in README.txt

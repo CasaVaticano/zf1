@@ -22,7 +22,9 @@ curl -s http://getcomposer.org/installer | php
 php composer.phar install
 ```
 
-Finally require the autoloader and you're good to go.
+### Using ZF Components standalone
+
+Require the autoloader and you're good to go.
 
 ```php
 <?php

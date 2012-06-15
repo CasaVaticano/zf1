@@ -7,7 +7,12 @@
         "zend framework 1",
         "zf",
         "zf1",
-        "zend"
+        "zend",
+        "zend framework github",
+        "zend framework 1 github",
+        "zf github",
+        "zf1 github",
+        "zend github"
     ],
     "homepage": "https://github.com/breerly/zf1",
     "require": {

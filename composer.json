@@ -1,7 +1,7 @@
 {
     "name": "breerly/zf1",
     "type": "library",
-    "description": "Zend Framework 1 - the only fully supported ZF1 composer repo on Github, now with instructions! The official repo is on Subversion, if that's your thing." ,
+    "description": "The only fully supported Zend Framework 1 Composer on Github!" ,
     "keywords": [
         "zend framework",
         "zend framework 1",

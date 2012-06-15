@@ -43,6 +43,19 @@ php vendor/bin/zf.php --help
 php vendor/bin/zf.php create project . myproject
 ```
 
+Now install vendors.
+
+```sh
+curl -s http://getcomposer.org/installer | php
+php composer.phar install
+```
+
+You'll want to add the vendors folder to your `.gitignore`
+
+```sh
+echo vendors >> .gitignore
+```
+
 Then at the top of `public/index.php` require the autoloader.
 
 ```php

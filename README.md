@@ -56,7 +56,7 @@ You'll want to add the vendors folder to your `.gitignore`
 echo vendors >> .gitignore
 ```
 
-Then at the top of `public/index.php` require the autoloader.
+Then at the top of `public/index.php` require the autoloader. 
 
 ```php
 <?php
@@ -64,7 +64,11 @@ require_once __DIR__ . '/../vendor/autoload.php';
 // ...
 ```
 
-And finally, if you do not plan on using ZF's library convention and instead plan on using Composer across the board, you should disable `Zend_Loader_Autoloader` by adding this line in `public/index.php` before the application is bootstrapped.
+You're good to go!
+
+##### Bonus: Optimizing Autoload
+
+If you do not plan on using ZF's library convention for autoloading and instead plan on using Composer across the board, you should disable `Zend_Loader_Autoloader` by adding this line in `public/index.php` before the application is bootstrapped.
 
 ```php
 <?php

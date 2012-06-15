@@ -3,6 +3,8 @@ Zend Framework 1 for Composer
 
 This is a maintained mirror of ZF1 for use with [Packagist](http://packagist.org/packages/breerly/zf1). You can find the original ZF1 readme in README.txt
 
+Why maintain a mirror? Because we love Github & Composer - it's just a better experience than the official [Subversion Repository](http://framework.zend.com/code/listing.php?repname=Zend+Framework).
+
 ## Installation
 
 To install, add the following to `composer.json` at the root of your project:

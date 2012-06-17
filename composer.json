@@ -17,6 +17,7 @@
         "zend github"
     ],
     "homepage": "https://github.com/breerly/zf1",
+    "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.2.4"
     },

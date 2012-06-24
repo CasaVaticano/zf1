@@ -12,7 +12,7 @@ To install, add the following to `composer.json` at the root of your project:
 ```json
 {
     "require": {
-        "breerly/zf1": "1.11.*",
+        "breerly/zf1": "1.11.*"
     }
 }
 ```
